@@ -1,0 +1,527 @@
+@media (orientation:portrait) {
+  @font-face {
+    font-family: 'impact';
+    src: url('../fonts/impact.ttf');
+  }
+
+  @font-face {
+    font-family: 'arialbd';
+    src: url('../fonts/arialbd.ttf');
+  }
+
+
+  @font-face {
+    font-family: 'AvenirLTStd-Light';
+    src: url('../fonts/AvenirLTStd-Light.otf');
+  }
+
+  @font-face {
+    font-family: 'AvenirLTStd-Medium';
+    src: url('../fonts/AvenirLTStd-Medium.otf');
+  }
+
+  @font-face {
+    font-family: 'AvenirLTStd-Book';
+    src: url('../fonts/AvenirLTStd-Book.otf');
+  }
+
+  @font-face {
+    font-family: 'AvenirLTStd-Black';
+    src: url('../fonts/AvenirLTStd-Black.otf');
+  }
+
+  body{
+    /* padding-bottom: 20vw; */
+    margin: 0;
+  }
+
+  /* header start */
+  header nav{
+    background: #051045;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .cls-1 {
+    fill: #e7202b;
+    fill-rule: evenodd;
+  }
+
+  .logoContainer{
+    display: flex;
+    align-items: center;
+  }
+  .logo{
+    width: 5.675vw;
+    height: 5.675vw;
+    margin: 4.86486vw 1.08108vw 4.3243vw 3.51351vw;
+  }
+
+  .logoInitials{
+    height: 5.675vw;
+  }
+
+  .userIconContainer{
+      cursor: pointer;
+  }
+
+  .userIcon{
+    height: 6.4864vw;
+    margin-right: 4.32432vw;
+  }
+
+  .baner{
+    width: calc(100% + 1px);
+    left: -1px;
+    position: absolute;
+  }
+
+  .welcome{
+    position: relative;
+    font-family: 'AvenirLTStd-Black';
+    color: white;
+    font-size: 11.26vw;
+    margin-top: 15.054446vw;
+    margin-left: 8.3539vw;
+  }
+
+  .topBGcontainer{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    /* border: 1px solid blue; */
+    position: relative;
+    margin-top: -11vw;
+  }
+  .topBG{
+    width: 100%;
+  }
+  .headerContentContainer{
+    background: #f33b3b;
+    position: relative;
+    padding: 0.1px;
+    margin-top: -3px;
+  }
+
+  .headerImgContainer{
+    width: 55.3475vw;
+    height: 43.2849vw;
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+  }
+
+  .headerImg{
+    width: 118%;
+    position: relative;
+  }
+
+  .headerContentContainer h1{
+    color: white;
+    text-align: right;
+    position: relative;
+    font-weight: 100;
+    width: 50.6vw;
+    font-family: 'AvenirLTStd-Light';
+    font-size: 7.441vw;
+    /* font-weight: 100; */
+    margin-top: 4vw;
+    margin-left: 11.7vw;
+  }
+
+
+  .headerTextContainer{
+    display: flex;
+    font-family: arial;
+    color: white;
+    font-size: 3.20855vw;
+    margin-top: 29.7vw;
+    text-align: justify;
+    padding-left: 11.764vw;
+    padding-right: 11.764vw;
+    flex-direction: column;
+  }
+
+  .headerTextContainer p{
+    margin: 0;
+    font-family: 'AvenirLTStd-Light';
+  }
+  .textContainerLeft{
+    margin-right: 1.225vw;
+    margin-bottom: 4vw;
+  }
+  .textContainerRight{
+  margin-left: 0;
+  }
+
+  .headerContentContainer h3{
+    font-size: 3.2vw;
+    color: white;
+    font-family: arial;
+    margin: 0;
+    font-weight: 800;
+    text-align: unset;
+    margin-top: 1vw;
+    margin-left: 11.764vw;
+    margin-bottom: 3.3484vw;
+    font-family: 'AvenirLTStd-Medium';
+  }
+  /* header end */
+
+  /* ingredientsSection start */
+  .ingredientsSection{
+    padding: 0.1px;
+    position: relative;
+    overflow: hidden;
+  }
+  .carContainer{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .carContainer img{
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .ingredientContent{
+    position: absolute;
+    top: 0;
+  }
+  .ingredientTextBox{
+    color: white;
+    text-align: center;
+  }
+  .ingredientTextBox h2{
+    font-size: 9.651474vw;
+    font-family: 'arialbd';
+    margin-top: 9.6vw;
+    margin-bottom: 0vw;
+  }
+  .ingredientTextBox h3{
+    font-size: 3.28vw;
+    font-family: 'AvenirLTStd-Light';
+    margin: 0;
+    margin-top: 6.7vw;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .carSeparateControlContainer{
+    display: flex;
+    margin-top: 18.7vw;
+  }
+  .carControlImageContainer{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+  }
+  .leftArrowBox{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rightArrowBox{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .popUpLeftArrowBox{
+    transform: skewX(10deg);
+    transform: rotate(55.5deg);
+  }
+  .popUpLeftArrow{
+    width: 2.116vw;
+    height: 2.116vw;
+    /* transform: rotate(45deg); */
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+    transform: skewX(25deg);
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+  .rightPopArrow{
+    transform: rotate(-126deg);
+    position: relative;
+  }
+
+  .carControlBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .carControlBox:nth-child(1){
+    display: none;
+  }
+  .carControlBox p{
+    font-size: 5.8981vw;
+    color: white;
+    text-align: center;
+    font-family: arial;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .carControlBox:nth-child(1) img{
+  }
+  .carControlBox:nth-child(2) img{
+    width: 59.5174vw;
+  }
+
+  .buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 14.86vw;
+  }
+
+  .buttonContainer button{
+    transition: 0.5s ease;
+    width: 72.922vw;
+    height: 15.5495vw;
+    background: #f33b3b;
+    border: none;
+    color: white;
+    font-size: 7.5067vw;
+    font-family: 'arialbd';
+    cursor: pointer;
+    filter: brightness(1);
+  }
+  .buttonContainer button:hover{
+    filter: brightness(1.3);
+  }
+
+  .botBGcontainer{
+    width: 100%;
+    overflow: hidden;
+    /* border: 1px solid blue; */
+    position: relative;
+    top: -2px;
+  }
+  .botBG{
+    width: 101%;
+    position: relative;
+    left: -0.5%;
+  }
+  /* ingredientsSection end */
+
+  /* commisionSectionstart */
+  .commisionSection{
+    /* border: 1px solid blue; */
+    display: flex;
+    margin-top: 2vw;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .titleContainer{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-right: none;
+    width: 300%;
+    height: auto;
+    transition: 1s ease;
+    left: 0%;
+    position: relative;
+  }
+
+  .titleContainer h2{
+    transition: 0.5s ease;
+    font-size: 7.5067vw;
+    font-family: 'arialbd';
+    margin-left: 0;
+  }
+  .selectionBox{
+    position: relative;
+    /* border: 1px solid blue; */
+    cursor: pointer;
+    width: 33.3%;
+    text-align: center;
+    color: black !important;
+  }
+
+  /* .selectionBox:hover h2{
+    color: #f33b3b;
+  } */
+
+  .selectionBox:hover .selectionUnderline{
+    color: #f33b3b;
+    width: 0vw !important;
+  }
+  .selected{
+    color: #f33b3b;
+    font-weight: 900;
+    width: 33.3%;
+  }
+
+  .selectionUnderline{
+    transition: 1s ease;
+    background: #f33b3b;
+    width: 0vw !important;
+    height: 0.907441vw;
+    position: absolute;
+    top: 8.3vw;
+    left: 6.7vw;
+  }
+
+  .selected .selectionUnderline{
+    width: 23.31578vw;
+    width: 0 !important;
+  }
+
+  .carTextBox{
+    font-size: 3.217vw;
+    font-family: 'AvenirLTStd-Medium';
+    width: 80%;
+    overflow: hidden;
+    overflow: hidden;
+  }
+  .carTextMoving{
+    display: flex;
+    transition: 1s ease;
+    width: 300%;
+    position: relative;
+    left: -100%;
+  }
+
+  .carTextBox p{
+    margin-left: 5vw;
+    text-align: justify;
+    margin-right: 5vw;
+  }
+  .textOrder{
+  width: 33.3%;
+  flex-shrink: 0;
+  }
+
+  .commissionArrowsContainer{
+    position: absolute;
+    top: 48vw;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 14vw;
+  }
+
+  .commissionleftArrowBox{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw;
+  }
+  .commissionrightArrowBox{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .commissionpopUpLeftArrowBox{
+    transform: skewX(10deg);
+    transform: rotate(55.5deg);
+  }
+  .commissionpopUpLeftArrow{
+    width: 5.116vw;
+    height: 5.116vw;
+    /* transform: rotate(45deg); */
+    border-left: 8px solid #f33b3b;
+    border-bottom: 8px solid #f33b3b;
+    transform: skewX(25deg);
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+  .commissionrightPopArrow{
+    transform: rotate(-180deg);
+    position: relative;
+  }
+  /* commisionSection end */
+
+  /* featuresSection start */
+  .featuresSection{
+    position: relative;
+    margin-top: 3.8vw;
+    width: 100%;
+    overflow: hidden;
+  }
+  .featuredTopBgContainer{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .featuresTopBg{
+    width: 100%;
+  }
+
+  .featuresSection h2{
+    text-align: center;
+    font-size: 7.50670vw;
+    font-family: 'arialbd';
+    margin-top: 20.7vw;
+    color: #161d37;
+  }
+
+  .featuredContainer{
+    color: #161d37;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 11vw;
+  }
+  .featuredBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'AvenirLTStd-Light';
+    font-size: 4.2895vw;
+    text-align: center;
+    width: 54%;
+    color: #051045;
+    margin-bottom: 8vw;
+  }
+
+  .featuredBox img{
+    cursor: pointer;
+    height: 11.7962vw;
+  }
+
+  .featuredBox:nth-child(3) img{
+    height: 17vw;
+  }
+
+  .featuredBotBg{
+    position: relative;
+    margin-top: -12vw;
+    width: 106%;
+    margin-bottom: -0.4vw;
+  }
+
+  .rightsReserved{
+    position: absolute;
+    bottom: 0vw;
+    left: 0vw;
+    margin-left: 8.17422vw;
+    margin-bottom: 10.901996vw;
+    color: white;
+    font-family: 'AvenirLTStd-Light';
+    font-size: 3.217vw;
+  }
+  /* featuresSection end */
+
+  /* mobile show stuf */
+  .commissionArrowsContainer{
+    display: flex;
+      user-select: none;
+  }
+}

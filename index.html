@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styleMobile.css">
   </head>
   <body>
     <header>
@@ -21,7 +22,11 @@
       <img class="baner" src="assets/images/baner.svg" alt="">
       <h2 class="welcome">WELCOME</h2>
       <div class="topBGcontainer">
-        <img class="topBG" src="assets/images/topBG.svg" alt="">
+        <picture class="">
+          <source media="(min-width: 1367px)" srcset="assets/images/topBG.png">
+          <source media="(max-width: 766px)" srcset="assets/images/mobile/topBG.png">
+          <img class="topBG" src="assets/images/mobile/topBG.png" alt="">
+        </picture>
       </div>
 
       <div class="headerContentContainer">
@@ -50,7 +55,11 @@
 
     <section class="ingredientsSection">
       <div class="carContainer">
-        <img src="assets/images/carImages/1.jpg" alt="">
+        <picture class="">
+          <source media="(min-width: 1367px)" srcset="assets/images/carImages/1.jpg">
+          <source media="(max-width: 766px)" srcset="assets/images/mobile/carImages/1.jpg">
+          <img src="assets/images/mobile/carImages/1.jpg" alt="">
+        </picture>
       </div>
       <div class="ingredientContent">
         <div class="ingredientTextBox">
@@ -86,7 +95,11 @@
       </div>
     </section>
     <div class="botBGcontainer">
-      <img class="botBG" src="assets/images/botBG.svg" alt="">
+      <picture class="">
+        <source media="(min-width: 1367px)" srcset="assets/images/botBG.png">
+        <source media="(max-width: 766px)" srcset="assets/images/mobile/botBG.png">
+        <img class="botBG" src="assets/images/mobile/botBG.png" alt="">
+      </picture>
     </div>
     <section class="commisionSection">
       <div class="titleContainer">
@@ -95,7 +108,7 @@
           <div class="selectionUnderline"></div>
         </div>
         <div class="selectionBox selected">
-          <h2 >COMMISION</h2>
+          <h2 >COMMISSION</h2>
           <div class="selectionUnderline"></div>
         </div>
         <div class="selectionBox">
@@ -105,36 +118,73 @@
       </div>
 
       <div class="carTextBox">
-        <div class="textOrder">
-          <p>As the old Chinese saying goes: you harvest what you've sowed. NNB rewards hardworking consultant with generous commissions on top of your base-pay agreed upon your joining.
-            Each month, you will receive a commission payment equal to 5% of your production. Commissions are paid for the 1st three years after the initial order (this part needs edit) and is not affected by the termination of the agreement under any circumstances.
-            As we always say, we want you to succeed, because that is the only way NNB will be able to grow. The consultant position has endless potential - and it is our genuine hope that you are ready to embark on this journey with us.
-          </p>
+        <div class="carTextMoving">
+          <div class="textOrder">
+            <p>NNB treat consultants as a part of the family. For us, we value nothing more thant the relationship we build with you.
+              Each year, consultants are invited to participate on two funded-trips by NNB so each consultant can continue to grow their professionalism, empower their mission statements, and grow to be stronger human beings. On top of that, NNB provides monthly teleconference calls to keep consultants up-to-date on industry news, ingredient training, and other updates. The total amount of these teleconferences can cumulate to up to 24 hours each year.
+              For those who’d like to take their career to the next level, NNB is here to offer full-on support. As your consultant career progresses, you will be exposed to different opportunities, such as media events, interviews, and attending major conferences.
+            </p>
+          </div>
+          <div class="textOrder">
+            <p>As the old Chinese saying goes: you harvest what you've sowed. NNB rewards hardworking consultant with generous commissions on top of your base-pay agreed upon your joining. <br>
+              Each month, you will receive a commission payment equal to 5% of your production. Commissions are paid for the 1st three years after the initial order (this part needs edit) and is not affected by the termination of the agreement under any circumstances. <br>
+              As we always say, we want you to succeed, because that is the only way NNB will be able to grow. The consultant position has endless potential - and it is our genuine hope that you are ready to embark on this journey with us.
+            </p>
+          </div>
+          <div class="textOrder">
+            <p>(With the cellphone visual mockup only on the desktop version)
+              NNB believes in the competency of our consultant partner. As a consultant, you are fully accountabe for the creation, tracking, modification and deletion of any orders you process. There is no limit on how much you could achieve as a consultant - however, you are responsible for your own success.
+              But worry not! We fully understand the importance of pairing sharp professionals with efficient tools, as even the most splendid housewives could not make bread with out flour. At this point, we are dedicating oursevles to develop a consultant portal that will allow you to automate your workflow and see all order status in one place.
+              Stay tuned - more information on the order management system coming soon!
+            </p>
+          </div>
+        </div>
+        <div class="commissionArrowsContainer">
+          <div class=" commissionleftArrowBox">
+            <div class=" commissionpopUpLeftArrowBox">
+              <div class=" commissionpopUpLeftArrow"></div>
+            </div>
+          </div>
+          <div class=" commissionleftArrowBox commissionrightPopArrow">
+            <div class=" commissionpopUpLeftArrowBox">
+              <div class=" commissionpopUpLeftArrow"></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="featuresSection">
       <div class="featuredTopBgContainer">
-        <img class="featuresTopBg" src="assets/images/featuredSection/featuresTopBg.svg" alt="">
+        <picture class="">
+          <source media="(min-width: 1367px)" srcset="assets/images/featuredSection/featuresTopBg.png">
+          <source media="(max-width: 766px)" srcset="assets/images/mobile/featuredSection/featuresTopBg.png">
+          <img class="featuresTopBg" src="assets/images/mobile/featuredSection/featuresTopBg.png" alt="">
+        </picture>
+
       </div>
       <h2>FEATURES</h2>
       <div class="featuredContainer">
         <div class="featuredBox">
           <img src="assets/images/featuredSection/manage.svg" alt="">
-          <h3>manage your consiltant profile at</h3>
+          <h3>manage your consiltant profile at your fingertip.</h3>
         </div>
         <div class="featuredBox">
           <img src="assets/images/featuredSection/track.svg" alt="">
-          <h3>Track, add/delete, edit/update all orders in one</h3>
+          <h3>Track, add/delete, edit/update all orders in one place</h3>
         </div>
         <div class="featuredBox">
           <img src="assets/images/featuredSection/commission.svg" alt="">
-          <h3>See how much commission you've</h3>
+          <h3>See how much commission you've earned anytime.</h3>
         </div>
       </div>
 
-      <img class="featuredBotBg" src="assets/images/featuredSection/featuredBotBg.svg" alt="">
+      <picture class="">
+        <source media="(min-width: 1367px)" srcset="assets/images/featuredSection/featuredBotBg.png">
+        <source media="(max-width: 766px)" srcset="assets/images/mobile/featuredSection/featuredBotBg.png">
+        <img class="featuredBotBg" src="assets/images/mobile/featuredSection/featuredBotBg.png" alt="">
+      </picture>
+
       <p class="rightsReserved">@NNB - ALL RIGHTS RESERVED</p>
     </section>
 

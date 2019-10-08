@@ -33,7 +33,14 @@ body{
   /* padding-bottom: 20vw; */
   margin: 0;
 }
-
+br{
+  margin-bottom: 20px;
+  content: '';
+  display: block;
+}
+picture{
+  width: 100%;
+}
 /* header start */
 header nav{
   background: #161d37;
@@ -95,6 +102,7 @@ header nav{
 }
 .topBG{
   width: 100%;
+  display: flex;
 }
 .headerContentContainer{
   background: #f33b3b;
@@ -168,11 +176,10 @@ header nav{
 .ingredientsSection{
   padding: 0.1px;
   position: relative;
-  padding-bottom: 7.1vw;
   overflow: hidden;
 }
 .carContainer{
-  position: absolute;
+  position: relative;
   width: 100%;
   overflow: hidden;
 }
@@ -183,7 +190,8 @@ header nav{
   margin-bottom: -10vw;
 }
 .ingredientContent{
-  position: relative;
+  position: absolute;
+  top: 0;
 }
 .ingredientTextBox{
   color: white;
@@ -290,12 +298,13 @@ header nav{
   overflow: hidden;
   /* border: 1px solid blue; */
   position: relative;
-  top: -2px;
+  margin-top: -2px;
 }
 .botBG{
   width: 101%;
   position: relative;
   left: -0.5%;
+  top: -2px;
 }
 /* ingredientsSection end */
 
@@ -331,10 +340,12 @@ header nav{
 /* .selectionBox:hover h2{
   color: #f33b3b;
 } */
-
+.selectionBox:hover{
+  color: #f33b3b !important;
+}
 .selectionBox:hover .selectionUnderline{
   color: #f33b3b;
-  width: 20vw;
+  /* width: 20vw !important; */
 }
 .selected{
   color: #f33b3b;
@@ -359,7 +370,17 @@ header nav{
   font-size: 2.5408vw;
   font-family: 'AvenirLTStd-Medium';
   width: 55%;
+  overflow: hidden;
+  overflow: hidden;
 }
+.carTextMoving{
+  display: flex;
+  transition: 1s ease;
+  width: 300%;
+  position: relative;
+  left: -100%;
+}
+
 .carTextBox p{
   margin-left: 5vw;
   text-align: justify;
@@ -367,6 +388,9 @@ header nav{
 }
 .textOrder{
 
+width: 33.3%;
+
+flex-shrink: 0;
 }
 /* commisionSection end */
 
@@ -432,3 +456,9 @@ header nav{
   font-size: 2.17785vw;
 }
 /* featuresSection end */
+
+
+/* desktop hide stuf */
+.commissionArrowsContainer{
+  display: none;
+}
