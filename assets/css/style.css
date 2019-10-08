@@ -108,6 +108,7 @@ header nav{
   background: #f33b3b;
   position: relative;
   padding: 0.1px;
+  top: -2px;
 }
 
 .headerImgContainer{
