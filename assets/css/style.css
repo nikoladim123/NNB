@@ -103,12 +103,13 @@ header nav{
 .topBG{
   width: 100%;
   display: flex;
+  position: relative;
+  bottom: -4px;
 }
 .headerContentContainer{
   background: #f33b3b;
   position: relative;
   padding: 0.1px;
-  margin-top: -2px;
 }
 
 .headerImgContainer{
