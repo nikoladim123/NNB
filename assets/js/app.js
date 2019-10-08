@@ -1,3 +1,52 @@
+// top carousel
+var leftArrowBox = document.getElementsByClassName('leftArrowBox');
+var rightArrowBox = document.getElementsByClassName('rightArrowBox');
+var carControlImageContainerInside = document.getElementsByClassName('carControlImageContainerInside');
+
+
+var topCarouselLeft = 0;
+var topCarMobLeft = 0;
+
+function arrowLeft() {
+  if(window.innerWidth > window.innerHeight){
+    if (topCarouselLeft < -1) {
+      topCarouselLeft+= 50;
+    }
+    carControlImageContainerInside[0].style.left = topCarouselLeft + '%';
+  }else{
+    if (topCarMobLeft < -1) {
+      topCarMobLeft += 100;
+    }
+    carControlImageContainerInside[0].style.left = topCarMobLeft + '%';
+  }
+};
+
+function arrowRight() {
+  if(window.innerWidth > window.innerHeight){
+    if (topCarouselLeft > -99) {
+      topCarouselLeft-= 50;
+    }
+    carControlImageContainerInside[0].style.left = topCarouselLeft + '%';
+  }else{
+    if (topCarMobLeft > -299) {
+      topCarMobLeft -= 100;
+    }
+    carControlImageContainerInside[0].style.left = topCarMobLeft + '%';
+  }
+};
+
+
+leftArrowBox[0].addEventListener('click',()=>{
+  arrowLeft();
+});
+
+rightArrowBox[0].addEventListener('click',()=>{
+  arrowRight();
+});
+
+
+
+
 // order commission relationship
 var selectionBox = document.getElementsByClassName('selectionBox');
 var carTextMoving = document.getElementsByClassName('carTextMoving');
@@ -57,4 +106,12 @@ commissionleftArrowBox[1].addEventListener('click',()=>{
   }
   titleContainer[0].style.left = commissionTitleContainerLeft + '%';;
   carTextMoving[0].style.left = commissionTextContainerLeft + '%';
+});
+
+
+
+// window events;
+window.addEventListener('resize',()=>{
+  // reset  the car for desk/mob
+  carControlImageContainerInside[0].style.left = 0;
 });

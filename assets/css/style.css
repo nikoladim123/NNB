@@ -217,11 +217,26 @@ header nav{
 }
 .carSeparateControlContainer{
   display: flex;
+  overflow: hidden;
   margin-top: 12.7vw;
+  padding: 1px;
+  position: relative;
+  width: 100%;
 }
 .carControlImageContainer{
   display: flex;
-  width: 80%;
+  width: 65%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.carControlImageContainerInside{
+  width: 200%;
+  transition: 1s ease;
+  display: flex;
+  justify-content: space-around;
+  flex-shrink: 0;
+  position: relative;
+  left: 0%;
 }
 .leftArrowBox{
   width: 10%;
@@ -259,6 +274,7 @@ header nav{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 25%;
 }
 .carControlBox p{
   font-size: 2.5408vw;
@@ -267,6 +283,9 @@ header nav{
   font-family: arial;
   margin-left: 5vw;
   margin-right: 5vw;
+}
+.carControlBox img{
+  width: 20.2359vw;
 }
 .carControlBox:nth-child(1) img{
   width: 37.0235vw
