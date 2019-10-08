@@ -196,6 +196,7 @@ header nav{
 .ingredientContent{
   position: absolute;
   top: 0;
+  width: 100%;
 }
 .ingredientTextBox{
   color: white;
@@ -225,7 +226,7 @@ header nav{
 }
 .carControlImageContainer{
   display: flex;
-  width: 65%;
+  width: 80%;
   overflow: hidden;
   flex-shrink: 0;
 }
