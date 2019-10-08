@@ -110,6 +110,8 @@ header nav{
   background: #f33b3b;
   position: relative;
   padding: 0.1px;
+  padding-bottom: 4vw;
+  margin-bottom: -2px;
 }
 
 .headerImgContainer{
