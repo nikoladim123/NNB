@@ -59,10 +59,12 @@ form p{
 }
 
 form input{
-  width: 34.0405vw;
+  width: 32.0405vw;
   height: 4.797vw;
   border: none;
+  font-size: 1.65898vw;
   margin-bottom: 3.2287vw;
+  padding-left: 2vw;
 }
 
 form button{

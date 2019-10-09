@@ -72,9 +72,10 @@
     }
 
     form input{
-      width: 75.2vw;
+      width: 73.2vw;
       height: 10.4vw;
       border: none;
+      font-size: 4.8vw;
       margin-bottom: 7.2287vw;
     }
 
