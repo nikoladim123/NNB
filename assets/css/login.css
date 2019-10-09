@@ -82,6 +82,8 @@ form button{
 
 form button:hover{
   filter: brightness(1.2);
+  color: #e7202b;
+  background: white;
 }
 
 .QR{
