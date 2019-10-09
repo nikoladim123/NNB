@@ -1,0 +1,110 @@
+@media (orientation:portrait) {
+    body{
+      margin: 0;
+      overflow-x: hidden;
+      background-size: 100% 100vh;
+      background-image: url('../images/login/mobBG.jpg')
+      /* width: 100%; */
+    }
+
+    .leftBG{
+      /* height: 100%; */
+      width: 35.42vw;
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: none;
+    }
+
+    .chart{
+      width: 41.42vw;
+      position: absolute;
+      left: 3.2287vw;
+      display: none;
+      top: 1.38376vw;
+    }
+    .bigCircleContainer{
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+    }
+    .bigCircle{
+      position: relative;
+      width: 126vw;
+      height: 126vw;
+      border-radius: 50%;
+      background: #051045;
+      margin-top: 19.9372vw;
+      /* right: -123vw; */
+      left: -13vw;
+      padding: 0.1px;
+    }
+
+    .logoContainer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 12.76383vw;
+      margin-bottom: 9.98154vw;
+    }
+    .logo{7
+      width: 10.6666vw;
+      height: 10.6666vw;
+      margin: 0 0.9074vw 0 0;
+    }
+
+    .logoInitials{
+      height: 10.6666vw;
+    }
+
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    form p{
+      color: white;
+      font-size: 4.26666vw;
+      font-family: arial;
+      margin: 0;
+      margin-bottom: 2vw;
+    }
+
+    form input{
+      width: 75.2vw;
+      height: 10.4vw;
+      border: none;
+      margin-bottom: 7.2287vw;
+    }
+
+    form button{
+      width: 34.666vw;
+      height: 8.79999vw;
+      background: #e7202b;
+      color: white;
+      font-size: 4.266666vw;
+      font-family: arial;
+      font-weight: 600;
+      border: none;
+      margin-top: 2vw;
+    }
+
+    .QR{
+      display: block;
+      width: 19.2vw;
+      margin-top: 7vw;
+    }
+
+    .rightsReserved{
+      display: block;
+      text-align: center;
+      color: white;
+      font-family: 'AvenirLTStd-Light';
+      font-size: 3.2vw;
+      position: absolute;
+      width: 100%;
+      bottom: 6vw;
+    }
+
+}

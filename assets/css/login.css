@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.leftBG{
+  /* height: 100%; */
+  width: 35.42vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.chart{
+  width: 41.42vw;
+  position: absolute;
+  left: 3.2287vw;
+  top: 1.38376vw;
+}
+
+.bigCircle{
+  position: absolute;
+  width: 55.81180vw;
+  height: 55.81180vw;
+  border-radius: 50%;
+  background: rgb(5,21,53);
+  margin-top: 1.9372vw;
+  right: -6vw;
+}
+
+.logoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8.76383vw;
+  margin-bottom: 3.98154vw;
+}
+.logo{
+  width: 4.62794vw;
+  height: 4.62794vw;
+  margin: 0 0.9074vw 0 0;
+}
+
+.logoInitials{
+  height: 4.62794vw;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form p{
+  color: white;
+  font-size: 2.9520vw;
+  font-family: arial;
+  margin: 0;
+}
+
+form input{
+  width: 34.0405vw;
+  height: 4.797vw;
+  border: none;
+  margin-bottom: 3.2287vw;
+}
+
+form button{
+  width: 21.6789vw;
+  height: 5.4428vw;
+  background: #e7202b;
+  color: white;
+  font-size: 2.952vw;
+  font-family: arial;
+  font-weight: 600;
+  border: none;
+  margin-top: 2vw;
+}
+
+.QR{
+  display: none;
+}
+
+.rightsReserved{
+  display: none;
+}
