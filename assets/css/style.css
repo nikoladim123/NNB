@@ -134,7 +134,7 @@ header nav{
   position: relative;
   font-weight: 100;
   width: 50.6vw;
-  font-family: 'AvenirLTStd-Medium';
+  font-family: impact;
   font-size: 7.441vw;
   /* font-weight: 100; */
   margin-top: 11vw;
@@ -226,12 +226,12 @@ header nav{
 }
 .carControlImageContainer{
   display: flex;
-  width: 80%;
+  width: 85%;
   overflow: hidden;
   flex-shrink: 0;
 }
 .carControlImageContainerInside{
-  width: 200%;
+  width: 400%;
   transition: 1s ease;
   display: flex;
   justify-content: space-around;
@@ -240,13 +240,13 @@ header nav{
   left: 0%;
 }
 .leftArrowBox{
-  width: 10%;
+  width: 7.5%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .rightArrowBox{
-  width: 10%;
+  width: 7.5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -276,6 +276,12 @@ header nav{
   flex-direction: column;
   align-items: center;
   width: 25%;
+  justify-content: center;
+}
+
+.carControlBox a{
+  position: relative;
+  /* height: 8vw; */
 }
 .carControlBox p{
   font-size: 2.5408vw;
@@ -286,13 +292,16 @@ header nav{
   margin-right: 5vw;
 }
 .carControlBox img{
-  width: 20.2359vw;
+  width: 33.2359vw;
 }
 .carControlBox:nth-child(1) img{
   width: 37.0235vw
 }
 .carControlBox:nth-child(2) img{
   width: 20.2359vw
+}
+.carControlBox:nth-child(8) img{
+  width: 15.2359vw
 }
 
 .buttonContainer{
@@ -387,7 +396,7 @@ header nav{
 }
 
 .selected .selectionUnderline{
-  width: 23.31578vw;
+  width: 11.31578vw;
 }
 
 .carTextBox{

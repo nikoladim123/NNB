@@ -1,35 +1,4 @@
 @media (orientation:portrait) {
-  @font-face {
-    font-family: 'impact';
-    src: url('../fonts/impact.ttf');
-  }
-
-  @font-face {
-    font-family: 'arialbd';
-    src: url('../fonts/arialbd.ttf');
-  }
-
-
-  @font-face {
-    font-family: 'AvenirLTStd-Light';
-    src: url('../fonts/AvenirLTStd-Light.otf');
-  }
-
-  @font-face {
-    font-family: 'AvenirLTStd-Medium';
-    src: url('../fonts/AvenirLTStd-Medium.otf');
-  }
-
-  @font-face {
-    font-family: 'AvenirLTStd-Book';
-    src: url('../fonts/AvenirLTStd-Book.otf');
-  }
-
-  @font-face {
-    font-family: 'AvenirLTStd-Black';
-    src: url('../fonts/AvenirLTStd-Black.otf');
-  }
-
   body{
     /* padding-bottom: 20vw; */
     margin: 0;
@@ -269,6 +238,9 @@
     width: 50%;
     flex-shrink: 0;
   }
+  .carControlBox a{
+    height: auto;
+  }
   .carControlBox:nth-child(1){
     /* display: none; */
   }
@@ -286,9 +258,12 @@
   .carControlBox:nth-child(2) img{
     width: 60.2359vw;
   }
+  .carControlBox:nth-child(8) img {
+    width: 45.2359vw;
+}
 
   .carControlBox img{
-    width: 60.2359vw;
+    width: 61.2359vw;
   }
 
   .buttonContainer{

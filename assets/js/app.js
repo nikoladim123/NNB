@@ -23,12 +23,12 @@ function arrowLeft() {
 
 function arrowRight() {
   if(window.innerWidth > window.innerHeight){
-    if (topCarouselLeft > -99) {
+    if (topCarouselLeft > -299) {
       topCarouselLeft-= 50;
     }
     carControlImageContainerInside[0].style.left = topCarouselLeft + '%';
   }else{
-    if (topCarMobLeft > -299) {
+    if (topCarMobLeft > -699) {
       topCarMobLeft -= 100;
     }
     carControlImageContainerInside[0].style.left = topCarMobLeft + '%';
@@ -61,7 +61,7 @@ function sectionBoxReset() {
 
 selectionBox[0].addEventListener('click',(e)=>{
   sectionBoxReset();
-  e.currentTarget.children[1].style.width = '23.31578vw';
+  e.currentTarget.children[1].style.width = '11.31578vw';
   console.log(e.target.children);
   carTextMoving[0].style.left = '0%';
   e.currentTarget.style.color = 'red';
@@ -69,14 +69,14 @@ selectionBox[0].addEventListener('click',(e)=>{
 
 selectionBox[1].addEventListener('click',(e)=>{
   sectionBoxReset();
-  e.currentTarget.children[1].style.width = '23.31578vw';
+  e.currentTarget.children[1].style.width = '11.31578vw';
   carTextMoving[0].style.left = '-100%';
   e.currentTarget.style.color = 'red';
 });
 
 selectionBox[2].addEventListener('click',(e)=>{
   sectionBoxReset();
-  e.currentTarget.children[1].style.width = '23.31578vw';
+  e.currentTarget.children[1].style.width = '11.31578vw';
   carTextMoving[0].style.left = '-200%';
   e.currentTarget.style.color = 'red';
 });
