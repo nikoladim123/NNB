@@ -231,7 +231,7 @@ header nav{
 }
 .ingredientTextBox h2{
   font-size: 6.53357vw;
-  font-family: 'arialbd';
+  font-family: 'Montserrat-Bold';
   margin-top: 7.6vw;
   margin-bottom: 0vw;
 }
@@ -315,7 +315,6 @@ header nav{
   font-size: 2.5408vw;
   color: white;
   text-align: center;
-  font-family: arial;
   margin-left: 5vw;
   margin-right: 5vw;
 }
@@ -346,8 +345,8 @@ header nav{
   border: none;
   color: white;
   font-size: 2.90381vw;
-  font-family: 'arialbd';
   cursor: pointer;
+  font-family: 'Montserrat-Bold';
   filter: brightness(1);
 }
 .buttonContainer button:hover{
@@ -388,9 +387,9 @@ header nav{
 .titleContainer h2{
   transition: 0.5s ease;
   font-size: 4.7186vw;
-  font-family: 'AvenirLTStd-Medium';
   margin-left: 6.17059vw;
   user-select: none;
+  font-family: 'Montserrat-Bold';
 }
 .selectionBox{
   position: relative;
