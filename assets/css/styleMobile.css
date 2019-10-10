@@ -44,6 +44,7 @@
     width: calc(100% + 1px);
     left: -1px;
     position: absolute;
+    filter: brightness(0.9);
   }
 
   .welcome{
@@ -51,8 +52,8 @@
     font-family: 'AvenirLTStd-Black';
     color: white;
     font-size: 11.26vw;
-    margin-top: 15.054446vw;
-    margin-left: 8.3539vw;
+    margin-top: 6.054446vw;
+    margin-left: 5.3539vw;
   }
 
   .topBGcontainer{
@@ -61,7 +62,7 @@
     display: flex;
     /* border: 1px solid blue; */
     position: relative;
-    margin-top: -11vw;
+    margin-top: -6vw;
   }
   .topBG{
     width: 100%;
@@ -155,6 +156,7 @@
     position: relative;
     margin-top: 0;
     margin-bottom: 0;
+    left: 0;
   }
   .ingredientContent{
     position: absolute;

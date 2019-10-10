@@ -103,7 +103,7 @@ header nav{
   font-family: 'Montserrat-Bold';
   color: white;
   font-size: 8.1vw;
-  margin-top: 18.054446vw;
+  margin-top: 21.054446vw;
   margin-left: 5.3539vw;
 }
 
@@ -113,7 +113,7 @@ header nav{
   display: flex;
   /* border: 1px solid blue; */
   position: relative;
-  margin-top: -9vw;
+  margin-top: -8vw;
 }
 .topBG{
   width: 100%;
@@ -130,8 +130,8 @@ header nav{
 }
 
 .headerImgContainer{
-  width: 64.882vw;
-  height: 43.2849vw;
+  width: 100%;
+  height: 46.2849vw;
   position: absolute;
   overflow: hidden;
   right: 0;
@@ -150,11 +150,11 @@ header nav{
   font-weight: 100;
   width: 50.6vw;
   font-family: 'Montserrat-Bold';
-  font-size: 7.441vw;
+  font-size: 6.441vw;
   /* font-weight: 100; */
   margin-top: 11vw;
   text-decoration: underline;
-  margin-left: 2vw;
+  margin-left: -2vw;
 }
 
 
@@ -162,7 +162,7 @@ header nav{
   display: flex;
   color: white;
   font-size: 2.17785vw;
-  margin-top: 18.7vw;
+  margin-top: 23.7vw;
   padding-left: 4.08348vw;
   padding-right: 4.08348vw;
 }
@@ -202,11 +202,23 @@ header nav{
   width: 100%;
   overflow: hidden;
 }
-.carContainer img{
+.carContainer::after{
+  content: '';
+  display: block;
   width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #350001;
+  opacity: 0.3;
+}
+.carContainer img{
+  width: 120%;
   position: relative;
-  margin-top: -5vw;
-  margin-bottom: -10vw;
+  margin-top: 0;
+  left: -10%;
+  margin-bottom: -1vw;
 }
 .ingredientContent{
   position: absolute;
