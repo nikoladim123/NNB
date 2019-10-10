@@ -49,7 +49,7 @@
 
   .welcome{
     position: relative;
-    font-family: 'AvenirLTStd-Black';
+    /* font-family: 'AvenirLTStd-Black'; */
     color: white;
     font-size: 11.26vw;
     margin-top: 6.054446vw;
@@ -94,7 +94,7 @@
     position: relative;
     font-weight: 100;
     width: 50.6vw;
-    font-family: 'AvenirLTStd-Light';
+    /* font-family: 'AvenirLTStd-Light'; */
     font-size: 7.441vw;
     /* font-weight: 100; */
     margin-top: 4vw;
@@ -104,7 +104,7 @@
 
   .headerTextContainer{
     display: flex;
-    font-family: arial;
+    /* font-family: arial; */
     color: white;
     font-size: 3.20855vw;
     margin-top: 29.7vw;
@@ -116,7 +116,7 @@
 
   .headerTextContainer p{
     margin: 0;
-    font-family: 'AvenirLTStd-Light';
+    /* font-family: 'AvenirLTStd-Light'; */
   }
   .textContainerLeft{
     margin-right: 1.225vw;
@@ -129,14 +129,14 @@
   .headerContentContainer h3{
     font-size: 3.2vw;
     color: white;
-    font-family: arial;
+    /* font-family: arial; */
     margin: 0;
     font-weight: 800;
     text-align: unset;
     margin-top: 1vw;
     margin-left: 11.764vw;
     margin-bottom: 9.3484vw;
-    font-family: 'AvenirLTStd-Medium';
+    /* font-family: 'AvenirLTStd-Medium'; */
   }
   /* header end */
 
@@ -169,13 +169,13 @@
   }
   .ingredientTextBox h2{
     font-size: 9.651474vw;
-    font-family: 'arialbd';
+    /* font-family: 'arialbd'; */
     margin-top: 9.6vw;
     margin-bottom: 0vw;
   }
   .ingredientTextBox h3{
     font-size: 3.28vw;
-    font-family: 'AvenirLTStd-Light';
+    /* font-family: 'AvenirLTStd-Light'; */
     margin: 0;
     margin-top: 6.7vw;
     width: 90%;
@@ -250,7 +250,7 @@
     font-size: 5.8981vw;
     color: white;
     text-align: center;
-    font-family: arial;
+    /* font-family: arial; */
     margin-left: 5vw;
     margin-right: 5vw;
   }
@@ -288,7 +288,7 @@
     border: none;
     color: white;
     font-size: 7.5067vw;
-    font-family: 'arialbd';
+    /* font-family: 'arialbd'; */
     cursor: pointer;
     filter: brightness(1);
   }
@@ -337,7 +337,7 @@
   .titleContainer h2{
     transition: 0.5s ease;
     font-size: 7.5067vw;
-    font-family: 'arialbd';
+    /* font-family: 'arialbd'; */
     margin-left: 0;
   }
   .selectionBox{
@@ -380,7 +380,7 @@
 
   .carTextBox{
     font-size: 3.217vw;
-    font-family: 'AvenirLTStd-Medium';
+    /* font-family: 'AvenirLTStd-Medium'; */
     width: 80%;
     overflow: hidden;
     overflow: hidden;
@@ -466,7 +466,7 @@
   .featuresSection h2{
     text-align: center;
     font-size: 7.50670vw;
-    font-family: 'arialbd';
+    /* font-family: 'arialbd'; */
     margin-top: 20.7vw;
     color: #162034;
   }
@@ -485,7 +485,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'AvenirLTStd-Light';
+    /* font-family: 'AvenirLTStd-Light'; */
     font-size: 4.2895vw;
     text-align: center;
     width: 54%;
@@ -516,7 +516,7 @@
     margin-left: 8.17422vw;
     margin-bottom: 10.901996vw;
     color: white;
-    font-family: 'AvenirLTStd-Light';
+    /* font-family: 'AvenirLTStd-Light'; */
     font-size: 3.217vw;
   }
   /* featuresSection end */
