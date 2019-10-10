@@ -145,16 +145,15 @@ header nav{
 
 .headerContentContainer h1{
   color: white;
-  text-align: right;
+  text-align: center;
   position: relative;
   font-weight: 100;
-  width: 50.6vw;
+  width: 100%;
   font-family: 'Montserrat-Bold';
   font-size: 6.441vw;
   /* font-weight: 100; */
-  margin-top: 11vw;
-  text-decoration: underline;
-  margin-left: -2vw;
+  margin-top: 20vw;
+  margin-left: 0;
 }
 
 

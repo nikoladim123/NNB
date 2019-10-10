@@ -72,11 +72,13 @@
     position: relative;
     padding: 0.1px;
     margin-top: -3px;
+    /* width: 100%; */
+    /* overflow: hidden; */
   }
 
   .headerImgContainer{
-    width: 55.3475vw;
-    height: 43.2849vw;
+    width: 100%;
+    height: 49.2849vw;
     position: absolute;
     overflow: hidden;
     right: 0;
@@ -90,15 +92,15 @@
 
   .headerContentContainer h1{
     color: white;
-    text-align: right;
+    text-align: center;
     position: relative;
     font-weight: 100;
-    width: 50.6vw;
+    /* width: 100%; */
     /* font-family: 'AvenirLTStd-Light'; */
     font-size: 7.441vw;
     /* font-weight: 100; */
-    margin-top: 4vw;
-    margin-left: 11.7vw;
+    margin-top: 20vw;
+    margin-left: 0;
   }
 
 
