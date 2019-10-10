@@ -117,14 +117,14 @@ var selectionUnderline = document.getElementsByClassName('selectionUnderline');
 
 function sectionBoxReset() {
   for (var i = 0; i < selectionBox.length; i++) {
-    selectionBox[i].style.color = 'black';
+    selectionBox[i].style.color = '#b3b3b3';
     selectionUnderline[i].style.width = '0vw';
   }
 }
 
 selectionBox[0].addEventListener('click',(e)=>{
   sectionBoxReset();
-  e.currentTarget.children[1].style.width = '11.31578vw';
+  e.currentTarget.children[1].style.width = '70%';
   console.log(e.target.children);
   carTextMoving[0].style.left = '0%';
   e.currentTarget.style.color = 'red';
@@ -132,14 +132,14 @@ selectionBox[0].addEventListener('click',(e)=>{
 
 selectionBox[1].addEventListener('click',(e)=>{
   sectionBoxReset();
-  e.currentTarget.children[1].style.width = '11.31578vw';
+  e.currentTarget.children[1].style.width = '80%';
   carTextMoving[0].style.left = '-100%';
   e.currentTarget.style.color = 'red';
 });
 
 selectionBox[2].addEventListener('click',(e)=>{
   sectionBoxReset();
-  e.currentTarget.children[1].style.width = '11.31578vw';
+  e.currentTarget.children[1].style.width = '80%';
   carTextMoving[0].style.left = '-200%';
   e.currentTarget.style.color = 'red';
 });

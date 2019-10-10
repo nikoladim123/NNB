@@ -382,8 +382,10 @@ header nav{
 }
 .selectionBox{
   position: relative;
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   cursor: pointer;
+  width: fit-content;
+  color: #b3b3b3;
 }
 
 /* .selectionBox:hover h2{
@@ -393,7 +395,7 @@ header nav{
   color: #e60102 !important;
 }
 .selectionBox:hover .selectionUnderline{
-  color: #e60102;
+  color: #b00d;
   /* width: 20vw !important; */
 }
 .selected{
