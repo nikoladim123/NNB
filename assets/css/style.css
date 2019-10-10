@@ -57,7 +57,7 @@ picture{
 }
 /* header start */
 header nav{
-  background: #161d37;
+  background: #162034;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -382,7 +382,7 @@ header nav{
 }
 .selectionBox{
   position: relative;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   cursor: pointer;
   width: fit-content;
   color: #b3b3b3;
@@ -414,7 +414,7 @@ header nav{
 }
 
 .selected .selectionUnderline{
-  width: 11.31578vw;
+  width: 80%;
 }
 
 .carTextBox{
@@ -464,11 +464,11 @@ flex-shrink: 0;
   font-size: 6.53357vw;
   font-family: 'arialbd';
   margin-top: 14.7vw;
-  color: #161d37;
+  color: #162034;
 }
 
 .featuredContainer{
-  color: #161d37;
+  color: #162034;
   display: flex;
   justify-content: space-around;
   padding-left: 2vw;
