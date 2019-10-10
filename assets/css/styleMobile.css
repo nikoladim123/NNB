@@ -252,7 +252,13 @@
     margin-left: 5vw;
     margin-right: 5vw;
   }
-  .carControlBox:nth-child(1) img{
+  .mitoImage {
+    width: 35.2359vw !important;
+  }
+  .nucleo {
+    width: 40.2359vw !important;
+}
+  /* .carControlBox:nth-child(1) img{
   width: 75.2359vw;
   }
   .carControlBox:nth-child(2) img{
@@ -260,7 +266,7 @@
   }
   .carControlBox:nth-child(8) img {
     width: 45.2359vw;
-}
+  } */
 
   .carControlBox img{
     width: 61.2359vw;

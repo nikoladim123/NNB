@@ -11,29 +11,92 @@ function arrowLeft() {
   if(window.innerWidth > window.innerHeight){
     if (topCarouselLeft < -1) {
       topCarouselLeft+= 50;
+      carControlImageContainerInside[0].style.left = topCarouselLeft + '%';
+    }else{
+      topCarouselLeft = -400;
+      carControlImageContainerInside[0].style.transition = '0s';
+      console.log(topCarMobLeft);
+      setTimeout(function () {
+      carControlImageContainerInside[0].style.left = topCarouselLeft + '%';
+        setTimeout(function () {
+          carControlImageContainerInside[0].style.transition = 'all 1s ease';
+          topCarouselLeft += 50;
+          carControlImageContainerInside[0].style.left = topCarouselLeft + '%';
+        }, 100);
+      }, 100);
     }
-    carControlImageContainerInside[0].style.left = topCarouselLeft + '%';
   }else{
     if (topCarMobLeft < -1) {
       topCarMobLeft += 100;
+      carControlImageContainerInside[0].style.left = topCarMobLeft + '%';
+    }else{
+      topCarMobLeft = -800;
+      carControlImageContainerInside[0].style.transition = '0s';
+      console.log(topCarMobLeft);
+      setTimeout(function () {
+      carControlImageContainerInside[0].style.left = topCarMobLeft + '%';
+        setTimeout(function () {
+          carControlImageContainerInside[0].style.transition = 'all 1s ease';
+          topCarMobLeft += 100;
+          carControlImageContainerInside[0].style.left = topCarMobLeft + '%';
+        }, 100);
+      }, 100);
     }
-    carControlImageContainerInside[0].style.left = topCarMobLeft + '%';
   }
 };
 
 function arrowRight() {
   if(window.innerWidth > window.innerHeight){
-    if (topCarouselLeft > -299) {
+    if (topCarouselLeft > -399) {
       topCarouselLeft-= 50;
+      carControlImageContainerInside[0].style.left = topCarouselLeft + '%';
+    }else{
+      topCarouselLeft = 0;
+      carControlImageContainerInside[0].style.transition = '0s';
+      console.log(topCarMobLeft);
+      setTimeout(function () {
+      carControlImageContainerInside[0].style.left = topCarouselLeft + '%';
+        setTimeout(function () {
+          carControlImageContainerInside[0].style.transition = 'all 1s ease';
+          topCarouselLeft -= 50;
+          carControlImageContainerInside[0].style.left = topCarouselLeft + '%';
+        }, 100);
+      }, 100);
     }
-    carControlImageContainerInside[0].style.left = topCarouselLeft + '%';
   }else{
-    if (topCarMobLeft > -699) {
+    if (topCarMobLeft > -899) {
       topCarMobLeft -= 100;
+      carControlImageContainerInside[0].style.left = topCarMobLeft + '%';
+      console.log(topCarouselLeft);
+    }else{
+      topCarMobLeft = -100;
+      carControlImageContainerInside[0].style.transition = '0s';
+      console.log(topCarMobLeft);
+      setTimeout(function () {
+      carControlImageContainerInside[0].style.left = topCarMobLeft + '%';
+        setTimeout(function () {
+          carControlImageContainerInside[0].style.transition = 'all 1s ease';
+          topCarMobLeft -= 100;
+          carControlImageContainerInside[0].style.left = topCarMobLeft + '%';
+        }, 100);
+      }, 100);
     }
-    carControlImageContainerInside[0].style.left = topCarMobLeft + '%';
   }
 };
+
+// function arrowRight() {
+//   if(window.innerWidth > window.innerHeight){
+//     if (topCarouselLeft > -299) {
+//       topCarouselLeft-= 50;
+//     }
+//     carControlImageContainerInside[0].style.left = topCarouselLeft + '%';
+//   }else{
+//     if (topCarMobLeft > -699) {
+//       topCarMobLeft -= 100;
+//     }
+//     carControlImageContainerInside[0].style.left = topCarMobLeft + '%';
+//   }
+// };
 
 
 leftArrowBox[0].addEventListener('click',()=>{

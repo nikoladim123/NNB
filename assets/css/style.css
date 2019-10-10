@@ -4,10 +4,24 @@
 }
 
 @font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('../fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: url('../fonts/Raleway-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.otf');
+}
+
+@font-face {
   font-family: 'arialbd';
   src: url('../fonts/arialbd.ttf');
 }
-
 
 @font-face {
   font-family: 'AvenirLTStd-Light';
@@ -85,7 +99,8 @@ header nav{
 
 .welcome{
   position: relative;
-  font-family: 'AvenirLTStd-Black';
+  /* font-family: 'AvenirLTStd-Black'; */
+  font-family: 'Montserrat-Bold';
   color: white;
   font-size: 8.1vw;
   margin-top: 18.054446vw;
@@ -134,17 +149,17 @@ header nav{
   position: relative;
   font-weight: 100;
   width: 50.6vw;
-  font-family: impact;
+  font-family: 'Montserrat-Bold';
   font-size: 7.441vw;
   /* font-weight: 100; */
   margin-top: 11vw;
   text-decoration: underline;
+  margin-left: 2vw;
 }
 
 
 .headerTextContainer{
   display: flex;
-  font-family: arial;
   color: white;
   font-size: 2.17785vw;
   margin-top: 18.7vw;
@@ -155,7 +170,7 @@ header nav{
 
 .headerTextContainer p{
   margin: 0;
-  font-family: 'AvenirLTStd-Light';
+  font-family: 'Raleway-Medium';
 }
 .textContainerLeft{
   margin-right: 1.225vw;
@@ -173,7 +188,7 @@ header nav{
   text-align: center;
   margin-top: 3vw;
   margin-bottom: 1.3484vw;
-  font-family: 'AvenirLTStd-Medium';
+  font-family: 'Raleway-Medium';
 }
 /* header end */
 
@@ -211,7 +226,7 @@ header nav{
 }
 .ingredientTextBox h3{
   font-size: 2.54083vw;
-  font-family: 'AvenirLTStd-Medium';
+  font-family: 'Raleway-Medium';
   margin: 0;
   margin-top: 1.7vw;
   width: 95%;
@@ -232,7 +247,7 @@ header nav{
   flex-shrink: 0;
 }
 .carControlImageContainerInside{
-  width: 400%;
+  width: 500%;
   transition: 1s ease;
   display: flex;
   justify-content: space-around;
@@ -285,6 +300,7 @@ header nav{
   /* height: 8vw; */
 }
 .carControlBox p{
+  font-family: 'Raleway-Medium';
   font-size: 2.5408vw;
   color: white;
   text-align: center;
@@ -296,13 +312,13 @@ header nav{
   width: 33.2359vw;
 }
 .carControlBox:nth-child(1) img{
-  width: 37.0235vw
+  /* width: 37.0235vw */
 }
-.carControlBox:nth-child(2) img{
-  width: 20.2359vw
+.nucleo{
+  width: 20.2359vw !important;
 }
-.carControlBox:nth-child(8) img{
-  width: 15.2359vw
+.mitoImage{
+  width: 15.2359vw !important;
 }
 
 .buttonContainer{
@@ -315,7 +331,7 @@ header nav{
   transition: 0.5s ease;
   width: 38.29vw;
   height: 8.16696vw;
-  background: #f33b3b;
+  background: #e60102;
   border: none;
   color: white;
   font-size: 2.90381vw;
@@ -372,23 +388,23 @@ header nav{
 }
 
 /* .selectionBox:hover h2{
-  color: #f33b3b;
+  color: #e60102;
 } */
 .selectionBox:hover{
-  color: #f33b3b !important;
+  color: #e60102 !important;
 }
 .selectionBox:hover .selectionUnderline{
-  color: #f33b3b;
+  color: #e60102;
   /* width: 20vw !important; */
 }
 .selected{
-  color: #f33b3b;
+  color: #e60102;
   font-weight: 900;
 }
 
 .selectionUnderline{
   transition: 1s ease;
-  background: #f33b3b;
+  background: #e60102;
   width: 0vw;
   height: 0.907441vw;
   position: absolute;
@@ -402,7 +418,6 @@ header nav{
 
 .carTextBox{
   font-size: 2.5408vw;
-  font-family: 'AvenirLTStd-Medium';
   width: 55%;
   overflow: hidden;
   overflow: hidden;
@@ -416,6 +431,7 @@ header nav{
 }
 
 .carTextBox p{
+  font-family: 'Raleway-Medium';
   margin-left: 5vw;
   text-align: justify;
   margin-right: 5vw;
@@ -461,7 +477,7 @@ flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'AvenirLTStd-Light';
+  font-family: 'Montserrat-Medium';
   font-size: 2.90381vw;
   text-align: center;
   width: 30%;
@@ -486,7 +502,7 @@ flex-shrink: 0;
   margin-left: 4.17422vw;
   margin-bottom: 3.901996vw;
   color: white;
-  font-family: 'AvenirLTStd-Light';
+  font-family: 'Raleway-Medium';
   font-size: 2.17785vw;
 }
 /* featuresSection end */
