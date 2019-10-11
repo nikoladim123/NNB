@@ -124,7 +124,7 @@ function sectionBoxReset() {
 
 selectionBox[0].addEventListener('click',(e)=>{
   sectionBoxReset();
-  e.currentTarget.children[1].style.width = '70%';
+  e.currentTarget.children[1].style.width = '72%';
   console.log(e.target.children);
   carTextMoving[0].style.left = '0%';
   e.currentTarget.style.color = 'red';
@@ -132,14 +132,14 @@ selectionBox[0].addEventListener('click',(e)=>{
 
 selectionBox[1].addEventListener('click',(e)=>{
   sectionBoxReset();
-  e.currentTarget.children[1].style.width = '80%';
+  e.currentTarget.children[1].style.width = '82%';
   carTextMoving[0].style.left = '-100%';
   e.currentTarget.style.color = 'red';
 });
 
 selectionBox[2].addEventListener('click',(e)=>{
   sectionBoxReset();
-  e.currentTarget.children[1].style.width = '80%';
+  e.currentTarget.children[1].style.width = '82%';
   carTextMoving[0].style.left = '-200%';
   e.currentTarget.style.color = 'red';
 });

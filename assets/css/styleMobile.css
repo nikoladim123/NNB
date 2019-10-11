@@ -6,7 +6,7 @@
 
   /* header start */
   header nav{
-    background: #162034;
+    background: #16203f;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,7 +68,7 @@
     width: 100%;
   }
   .headerContentContainer{
-    background: #f33b3b;
+    background: #e60102;
     position: relative;
     padding: 0.1px;
     margin-top: -3px;
@@ -110,7 +110,7 @@
     color: white;
     font-size: 3.20855vw;
     margin-top: 29.7vw;
-    text-align: justify;
+    text-align: unset;
     padding-left: 11.764vw;
     padding-right: 11.764vw;
     flex-direction: column;
@@ -147,6 +147,7 @@
     padding: 0.1px;
     position: relative;
     overflow: hidden;
+    display: flex;
   }
   .carContainer{
     position: relative;
@@ -286,7 +287,7 @@
     transition: 0.5s ease;
     width: 72.922vw;
     height: 15.5495vw;
-    background: #f33b3b;
+    background: #e60102;
     border: none;
     color: white;
     font-size: 7.5067vw;
@@ -397,7 +398,6 @@
 
   .carTextBox p{
     margin-left: 5vw;
-    text-align: justify;
     margin-right: 5vw;
   }
   .textOrder{
@@ -470,7 +470,7 @@
     font-size: 7.50670vw;
     /* font-family: 'arialbd'; */
     margin-top: 20.7vw;
-    color: #162034;
+    color: #16203f;
   }
 
   .featuredContainer{
@@ -491,7 +491,7 @@
     font-size: 4.2895vw;
     text-align: center;
     width: 54%;
-    color: #162034;
+    color: #16203f;
     margin-bottom: 8vw;
   }
 
