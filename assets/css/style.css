@@ -378,8 +378,8 @@ header nav{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border-right: 1.36116vw solid red;
-  width: 45%;
+  border-right: 0.75vw solid red;
+  width: 51%;
   height: 61.2522vw;
 }
 
